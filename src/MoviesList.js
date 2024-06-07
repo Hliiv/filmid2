@@ -1,4 +1,4 @@
-function MoviesList({movies}) {
+function MoviesList({ movies }) {
     return (
         movies.map((movie) => {
             return (
