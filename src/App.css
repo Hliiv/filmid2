@@ -7,6 +7,41 @@
   pointer-events: none;
 }
 
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.left-pane {
+  width: 30%;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-right: 1px solid #ccc;
+}
+
+.right-pane {
+  width: 70%;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.filter-container {
+  margin-top: 20px;
+}
+
+.error-box {
+  color: red;
+  margin-top: 10px;
+}
+
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
